@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+  /* background-image: linear-gradient(45deg,#ff0081,#ff9b45); */
+}
+body .page-index,body .page-bukti{
+  padding-top: 50px;
+}
+.button{
+  cursor: pointer;
+}
+.title h1{
+  text-align: center;
+  font-size: 70px;
+  color: #ff0037;
+}
+.form{
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+  background: white;
+}
+.form__title{
+  margin: 10px 0;
+  font-size: 30px;
+}
+.form input, .form select{
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  box-sizing: border-box;
+  border: 1px solid #888;
+}
+.form__nis{
+  position: relative;
+}
+.form__nis__content{
+  /* position: absolute; */
+  bottom: -12px;
+  background: red;
+  width: 100%;
+}
+.form__nis__content a{
+  text-decoration: none;
+  padding: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+.form__info p{
+  margin: 10px 0;
+}
+.form input[type=submit]{
+  background:white;
+  border: 2px solid red;
+  color: red;
+  font-weight: bold;
+}
+
+/* form info */
+
+.form .form__info--green{
+  color: rgb(38, 106, 0);
+  font-weight: bold;
+  background: rgb(128, 255, 102);
+  padding: 10px;
+  border-radius: 10px;
+}
+.form .form__info--note{
+  color: rgb(0, 0, 0);
+  font-weight: none;
+  background: rgb(255, 244, 69);
+  padding: 10px;
+  border-radius: 10px;
+}
+.form .form__info--danger{
+  color: rgb(115, 0, 0);
+  font-weight: none;
+  background: rgb(255, 110, 110);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form .form__info table{
+  width: 100%;
+}
+.form .form__info table tr td{
+  width: 50%;
+  height: 25px;
+}
+
+.nav-bottom{
+  padding: 15px;
+  position: absolute;
+  bottom: 0px;
+}
+.nav-bottom .button{
+  text-decoration: none;
+  color: blue;
+}
+
+
+
+/* admin */
+.nav-admin{
+  width: 100%;
+  border-bottom: 1px solid #aaa;
+}
+.nav-admin .nav-admin-brand{
+  padding: 10px;
+  display: inline-block;
+}
+.nav-admin .nav-admin-bottom{
+  text-align: right;
+}
+.nav-admin ul{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.nav-admin ul li{
+  list-style: none;
+  display: inline-block;
+}
+.nav-admin ul li a{
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+body#admin .content{
+  padding: 15px;
+}
+body#admin .content .table h1{
+  margin-bottom: 30px;
+}
+body#admin .content .table table td{
+  padding: 8px;
+}
+body#admin .content .table table td, body#admin .content .table table th{
+  padding: 8px;
+  border: 1px solid #000;
+}
