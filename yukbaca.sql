@@ -105,7 +105,7 @@ CREATE TABLE `siswa` (
 --
 
 INSERT INTO `siswa` (`nis`, `nama`, `kelas`, `no_hp`, `status_peminjaman`, `created_at`, `updated_at`) VALUES
-(20161001, 'Adistya Novita Sari', 'XII TEL 12', 821234567, 2, '2018-11-20 00:06:38', '2018-11-19 20:29:16'),
+(20161001, 'Ahmad Santoso Widoyo Kusumo', 'XII TEL 12', 821234567, 2, '2018-11-20 00:06:38', '2018-11-19 20:29:16'),
 (20161002, 'Andika Adikka Sidika', 'XII TEL 12', 821234567, 1, '2018-11-20 00:06:38', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
